@@ -55,6 +55,10 @@ body {
   transition: 200ms all;
   background: var(--color-bg-1);
   color: var(--color-text-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(90vh - 60px);
 }
 .header-c {
   width: 100vw;
