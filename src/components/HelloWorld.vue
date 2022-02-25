@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <g-test-button></g-test-button>
+    <g-layout>123</g-layout>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -40,6 +40,9 @@ import { Options, Vue } from 'vue-class-component';
 @Options({
   props: {
     msg: String
+  },
+  mounted() {
+    console.log(this)
   }
 })
 export default class HelloWorld extends Vue {
@@ -61,6 +64,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #3D84FF;
+  color: rgb(var(--link-6));
 }
 </style>

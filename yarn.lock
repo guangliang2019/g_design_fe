@@ -2,6 +2,27 @@
 # yarn lockfile v1
 
 
+"@arco-design/color@^0.4.0":
+  "integrity" "sha512-s7p9MSwJgHeL8DwcATaXvWT3m2SigKpxx4JA1BGPHL4gfvaQsmQfrLBDpjOJFJuJ2jG2dMt3R3P8Pm9E65q18g=="
+  "resolved" "https://registry.npmjs.org/@arco-design/color/-/color-0.4.0.tgz"
+  "version" "0.4.0"
+  dependencies:
+    "color" "^3.1.3"
+
+"@arco-design/web-vue@^2.18.0-beta.1":
+  "integrity" "sha512-HHk8L84n0e4ZrPzb7tJGV6xoC/UJbq+wT2/6Y3ci69R55yGti3W1RCZLHN9DqiXo1/oGNaZP4xVWbqoKYL8tqQ=="
+  "resolved" "https://registry.npmjs.org/@arco-design/web-vue/-/web-vue-2.18.0-beta.1.tgz"
+  "version" "2.18.0-beta.1"
+  dependencies:
+    "@arco-design/color" "^0.4.0"
+    "b-tween" "^0.3.3"
+    "b-validate" "^1.3.1"
+    "compute-scroll-into-view" "^1.0.17"
+    "dayjs" "^1.10.3"
+    "number-precision" "^1.5.0"
+    "resize-observer-polyfill" "^1.5.1"
+    "scroll-into-view-if-needed" "^2.2.28"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.8.3":
   "integrity" "sha1-DfyAMJvuyEEeZecGRhxAiwu5tDE="
   "resolved" "https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.16.0.tgz"
@@ -2093,6 +2114,18 @@
   "resolved" "https://registry.nlark.com/aws4/download/aws4-1.11.0.tgz"
   "version" "1.11.0"
 
+"b-tween@^0.3.3":
+  "integrity" "sha512-oEHegcRpA7fAuc9KC4nktucuZn2aS8htymCPcP3qkEGPqiBH+GfqtqoG2l7LxHngg6O0HFM7hOeOYExl1Oz4ZA=="
+  "resolved" "https://registry.npmjs.org/b-tween/-/b-tween-0.3.3.tgz"
+  "version" "0.3.3"
+
+"b-validate@^1.3.1":
+  "integrity" "sha512-7Bj+KFUcxk6c+qc3HiCR20qMOlHJmb7NSrVAS1amryVUT+7GTNqCp2Qk4XZP8XD3MBfZSqon/XlxNhHnxyB8ng=="
+  "resolved" "https://registry.npmjs.org/b-validate/-/b-validate-1.3.4.tgz"
+  "version" "1.3.4"
+  dependencies:
+    "lodash.isequal" "^4.5.0"
+
 "babel-code-frame@^6.22.0":
   "integrity" "sha1-Y/1D99weO7fONZR9uP42mj9Yx0s="
   "resolved" "https://registry.nlark.com/babel-code-frame/download/babel-code-frame-6.26.0.tgz"
@@ -2834,7 +2867,7 @@
     "color-name" "^1.0.0"
     "simple-swizzle" "^0.2.2"
 
-"color@^3.0.0":
+"color@^3.0.0", "color@^3.1.3":
   "integrity" "sha1-NUTcGYyvRJDD7MmnkLVP6f9F4WQ="
   "resolved" "https://registry.npmmirror.com/color/download/color-3.2.1.tgz"
   "version" "3.2.1"
@@ -2893,6 +2926,11 @@
     "on-headers" "~1.0.2"
     "safe-buffer" "5.1.2"
     "vary" "~1.1.2"
+
+"compute-scroll-into-view@^1.0.17":
+  "integrity" "sha512-j4dx+Fb0URmzbwwMUrhqWM2BEWHdFGx+qZ9qqASHRPqvTYdqvWnHg0H1hIbcyLnvgnoNAVMlwkepyqM3DaIFUg=="
+  "resolved" "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-1.0.17.tgz"
+  "version" "1.0.17"
 
 "concat-map@0.0.1":
   "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
@@ -3303,6 +3341,11 @@
   "version" "1.14.1"
   dependencies:
     "assert-plus" "^1.0.0"
+
+"dayjs@^1.10.3":
+  "integrity" "sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig=="
+  "resolved" "https://registry.npmjs.org/dayjs/-/dayjs-1.10.7.tgz"
+  "version" "1.10.7"
 
 "debug@^2.2.0":
   "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
@@ -4476,10 +4519,10 @@
   "resolved" "https://registry.npm.taobao.org/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz"
   "version" "1.0.1"
 
-"g-design@^0.1.22":
-  "integrity" "sha512-BevuORpudZXj/aVMFNiLHyxPwnHdTCHsLUeJbOaf4Bgj5TJVPH2VKrfxCiERInZHymqU+QR+iiX0WTJN5KUwdg=="
-  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.1.22.tgz"
-  "version" "0.1.22"
+"g-design@^0.1.25":
+  "integrity" "sha512-gsqbOoANGH+5+ufC/xzyp2jy2cHJl7GNMCj4R1LTHJMZ/sLhd+IexsmJn9jVSL7JENydg1Q8uyCnSspyS1IdgQ=="
+  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.1.25.tgz"
+  "version" "0.1.25"
   dependencies:
     "core-js" "^3.6.5"
     "vue" "^3.0.0"
@@ -5789,6 +5832,11 @@
   "resolved" "https://registry.nlark.com/lodash.defaultsdeep/download/lodash.defaultsdeep-4.6.1.tgz"
   "version" "4.6.1"
 
+"lodash.isequal@^4.5.0":
+  "integrity" "sha1-QVxEePK8wwEgwizhDtMib30+GOA="
+  "resolved" "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz"
+  "version" "4.5.0"
+
 "lodash.kebabcase@^4.1.1":
   "integrity" "sha1-hImxyw0p/4gZXM7KRI/21swpXDY="
   "resolved" "https://registry.npm.taobao.org/lodash.kebabcase/download/lodash.kebabcase-4.1.1.tgz"
@@ -6364,6 +6412,11 @@
   "integrity" "sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4="
   "resolved" "https://registry.npm.taobao.org/num2fraction/download/num2fraction-1.2.2.tgz"
   "version" "1.2.2"
+
+"number-precision@^1.5.0":
+  "integrity" "sha512-q7C1ZW3FyjsJ+IpGB6ykX8OWWa5+6M+hEY0zXBlzq1Sq1IPY9GeI3CQ9b2i6CMIYoeSuFhop2Av/OhCxClXqag=="
+  "resolved" "https://registry.npmjs.org/number-precision/-/number-precision-1.5.2.tgz"
+  "version" "1.5.2"
 
 "oauth-sign@~0.9.0":
   "integrity" "sha1-R6ewFrqmi1+g7PPe4IqFxnmsZFU="
@@ -7588,6 +7641,11 @@
   "resolved" "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz"
   "version" "1.0.0"
 
+"resize-observer-polyfill@^1.5.1":
+  "integrity" "sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg=="
+  "resolved" "https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz"
+  "version" "1.5.1"
+
 "resolve-cwd@^2.0.0":
   "integrity" "sha1-AKn3OHVW4nA46uIyyqNypqWbZlo="
   "resolved" "https://registry.npmmirror.com/resolve-cwd/download/resolve-cwd-2.0.0.tgz"
@@ -7792,6 +7850,13 @@
     "@types/json-schema" "^7.0.4"
     "ajv" "^6.12.2"
     "ajv-keywords" "^3.4.1"
+
+"scroll-into-view-if-needed@^2.2.28":
+  "integrity" "sha512-hxpAR6AN+Gh53AdAimHM6C8oTN1ppwVZITihix+WqalywBeFcQ6LdQP5ABNl26nX8GTEL7VT+b8lKpdqq65wXg=="
+  "resolved" "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-2.2.29.tgz"
+  "version" "2.2.29"
+  dependencies:
+    "compute-scroll-into-view" "^1.0.17"
 
 "select-hose@^2.0.0":
   "integrity" "sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo="
@@ -9024,7 +9089,7 @@
   "resolved" "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.0.0-0", "vue@^3.0.0", "vue@^3.0.2", "vue@3.2.26":
+"vue@^2 || ^3.0.0-0", "vue@^3.0.0", "vue@^3.0.2", "vue@^3.1.0", "vue@3.2.26":
   "integrity" "sha512-KD4lULmskL5cCsEkfhERVRIOEDrfEL9CwAsLYpzptOGjaGFNWo3BQ9g8MAb7RaIO71rmVOziZ/uEN/rHwcUIhg=="
   "resolved" "https://registry.npmmirror.com/vue/download/vue-3.2.26.tgz"
   "version" "3.2.26"

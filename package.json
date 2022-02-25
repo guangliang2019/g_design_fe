@@ -9,13 +9,14 @@
     },
     "dependencies": {
         "core-js": "^3.6.5",
-        "g-design": "^0.1.22",
+        "g-design": "^0.1.25",
         "vue": "^3.0.0",
         "vue-class-component": "^8.0.0-0",
         "vue-router": "^4.0.0-0",
         "vuex": "^4.0.0-0"
     },
     "devDependencies": {
+        "@arco-design/web-vue": "^2.18.0-beta.1",
         "@typescript-eslint/eslint-plugin": "^4.18.0",
         "@typescript-eslint/parser": "^4.18.0",
         "@vue/cli-plugin-babel": "~4.5.0",
