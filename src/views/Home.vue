@@ -24,7 +24,6 @@
         fill="currentColor"
       />
     </svg>
-
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
