@@ -4519,10 +4519,10 @@
   "resolved" "https://registry.npm.taobao.org/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz"
   "version" "1.0.1"
 
-"g-design@^0.1.25":
-  "integrity" "sha512-gsqbOoANGH+5+ufC/xzyp2jy2cHJl7GNMCj4R1LTHJMZ/sLhd+IexsmJn9jVSL7JENydg1Q8uyCnSspyS1IdgQ=="
-  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.1.25.tgz"
-  "version" "0.1.25"
+"g-design@^0.1.29":
+  "integrity" "sha512-1qtlCcluhzYIFFEKcPCwSJ5etnlJtWxa5UEH/lD3cGKUtUjePzFq9fiGRzWsY8ueQbsnVQnFyUyE5Ciev5lnXg=="
+  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.1.29.tgz"
+  "version" "0.1.29"
   dependencies:
     "core-js" "^3.6.5"
     "vue" "^3.0.0"

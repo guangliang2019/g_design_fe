@@ -1,6 +1,6 @@
 <template>
   <g-layout>
-    <g-layout-header>
+    <g-layout-header class="layout-header">
       <div class="header-c">
         <div class="left">
           <Logo @click="changeTheme" />
@@ -39,22 +39,8 @@ body {
   height: 40px;
   margin-left: 8px;
 }
-.g-layout-header {
-  transition: 200ms all;
-  height: 60px;
-  line-height: 60px;
-  background: var(--color-bg-2);
-  border-bottom: 1px solid var(--color-border);
-  color: var(--color-text-1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 .g-layout-content {
-  transition: 200ms all;
-  background: var(--color-bg-1);
-  color: var(--color-text-1);
   display: flex;
   flex-direction: column;
 }
