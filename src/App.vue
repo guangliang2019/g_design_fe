@@ -68,6 +68,11 @@ body {
   height: 40px;
   margin-left: 8px;
 }
+.right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .g-layout-header {
   justify-content: center;
   .header-text-button {
