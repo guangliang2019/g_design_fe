@@ -84,7 +84,7 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: rgba(var(--primary-5),1);
+  background: rgba(var(--primary-5), 1);
   border-radius: 1.625rem;
 }
 button.learn-more .circle .icon.arrow {
@@ -143,5 +143,11 @@ button.learn-more .button-text {
 }
 * {
   box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 </style>

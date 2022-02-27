@@ -8,7 +8,6 @@
         <div class="right">
           <g-button class="header-text-button" type="text">设计</g-button>
           <g-button class="header-text-button" type="text">开发</g-button>
-          <g-button class="header-text-button" type="text">介绍</g-button>
           <g-button
             class="header-text-button"
             @click="changeTheme"
