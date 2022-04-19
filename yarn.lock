@@ -4519,12 +4519,13 @@
   "resolved" "https://registry.npm.taobao.org/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz"
   "version" "1.0.1"
 
-"g-design@0.2.9":
-  "integrity" "sha512-c4uVjuQ1YDIiX8W2kVAZpcx/zgCgJAklW5obrmtd7Ct2D0J8G4zaRlZuBCrbQFyEenh36LScqaIxpVqtMmYiyw=="
-  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.2.9.tgz"
-  "version" "0.2.9"
+"g-design@0.2.22":
+  "integrity" "sha512-nQGCsNuBJKzWDfHKktqyzLEWhl0p2dIHwxiqWx6R0EUp/VsIq6HYK3QsEiG29pTdNhK8zSQdBlq8ZgSlsHeL9g=="
+  "resolved" "https://registry.npmjs.org/g-design/-/g-design-0.2.22.tgz"
+  "version" "0.2.22"
   dependencies:
     "core-js" "^3.6.5"
+    "resize-observer-polyfill" "^1.5.1"
     "vue" "^3.0.0"
     "vue-class-component" "^8.0.0-0"
 

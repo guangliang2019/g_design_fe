@@ -17,7 +17,7 @@
     <div class="right only-mobile">
       <g-button type="text">
         <template #icon>
-          <icon-menu size="24" />
+          <g-icon-menu size="24" />
         </template>
       </g-button>
     </div>
